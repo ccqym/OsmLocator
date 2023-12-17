@@ -1,0 +1,6 @@
+python main.py test_imgs/sml_00001.png -g test_imgs/sml_00001.json -o test_out/osm_sml1.json -O test_out/osm_sml1.png --out-point-size=3 --out-point-color=red
+python main.py test_imgs/biomass.png --is-hsv-s-channel -a 1.8 --no-is-auto-search-space -C 30 -o test_out/osm_biomass.json -O test_out/osm_biomass.png --out-point-size=10
+python main.py examples/correlation.png --is-hsv-s-channel --is-remove-text-and-axis --remove-kernel-size=25 -o test_out/osm_corr.json -O test_out/osm_corr.png --out-point-size=21
+python main.py test_imgs/multi_markers1.png -o test_out/osm_multimarkers1.json -O test_out/osm_multimarkers1.png --out-point-size=15 --out-point-color=red --supportable-markers='o,o_,s,s_,D,D_,^,^_,v,v_,6,7,+,*' --binarize-method=threshold --no-is-auto-search-space -C 60 
+python main.py test_imgs/multi_markers2.png -o test_out/osm_multimarkers2.json -O test_out/osm_multimarkers2.png --out-point-size=15 --out-point-color=red --supportable-markers='o,o_,s,s_,D,D_,^,^_,v,v_,6,7,+,*' --binarize-method=threshold --no-is-auto-search-space -C 60 
+python main.py test_imgs/multi_markers3.png -o test_out/osm_multimarkers3.json -O test_out/osm_multimarkers3.png --out-point-size=15 --out-point-color=red --supportable-markers='o,o_,s,s_,D,D_,^,^_,v,v_,6,7,+,*' --binarize-method=threshold --no-is-auto-search-space -C 60
