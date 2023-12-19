@@ -94,7 +94,7 @@ The usage of the wrapper is as follow:
 ```shell
 git clone https://github.com/ccqym/OsmLocator
 cd OsmLocator/cli_tool/
-# use '-H' to get usage information
+# use '-h' or '--help' to get usage information
 python main.py -h
 # you can run a shell script to run all examples.
 ./run_examples.sh
