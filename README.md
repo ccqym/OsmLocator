@@ -12,7 +12,7 @@ If you would like to use or know about this package, please refer to and conside
   title={OsmLocator: locating overlapping scatter marks by simulated annealing on clustering-based re-visualization},
   author={Yuming Qiu, Aleksandra Pizurica, Qi Ming and Nicolas Nadisic},
   journal={arXiv preprint arXiv:2312.11146},
-  url={https://arxiv.org/abs/2312.11146}
+  url={https://arxiv.org/abs/2312.11146},
   year={2023}
 }
 ```
