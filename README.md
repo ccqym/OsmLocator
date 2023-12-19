@@ -1,7 +1,7 @@
 # OsmLocator
 A tool to localize overlapping scatter marks. This work formulates the scatter marks localization as an optimization problem on cluster-based re-visualization.
 
-For a binary image of a scatter image, OsmLocator can locate the marks in the binary image. The following two images show the mark localization results of two scatter images in which black dots mark out the locaolization position.
+For a binary image of a scatter image, OsmLocator can locate the marks in the binary image. The following two images show the mark localization results of two scatter images in which black dots mark out the located position of scatter marks.
 
 ![Localization result of a scatter plot.](/images/scatter_plot.png "Localization result of a scatter plot.")
 ![Localization result of a scatter map.](/images/scatter_map.png "Localization result of a scatter map.")
@@ -11,7 +11,8 @@ If you would like to use or know about this package, please refer to and conside
 @article{qiu2023osmlocator,
   title={OsmLocator: locating overlapping scatter marks by simulated annealing on clustering-based re-visualization},
   author={Yuming Qiu, Aleksandra Pizurica, Qi Ming and Nicolas Nadisic},
-  journal={arXiv preprint arXiv:?.?},
+  journal={arXiv preprint arXiv:2312.11146},
+  url={https://arxiv.org/abs/2312.11146}
   year={2023}
 }
 ```
@@ -84,7 +85,7 @@ Evaluation results are a dict like
     '10': 0.9092001602368427
 }}
 ```
-the key '1', '5' and '10' are the $\lamda$ parameter of ACB metric.
+the key '1', '5' and '10' are the $\lambda$ parameter of ACB metric.
 
 ## CLI
 We have wrapped the functions of library as a CLI tool, so you can use the function by the following command.
