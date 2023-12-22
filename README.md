@@ -9,7 +9,7 @@ For a binary image of a scatter image, OsmLocator can locate the marks in the bi
 If you would like to use or know about this package, please refer to and consider citing the following paper: 
 ```
 @article{qiu2023osmlocator,
-  title={OsmLocator: locating overlapping scatter marks by simulated annealing on clustering-based re-visualization},
+  title={OsmLocator: locating overlapping scatter marks with a non-training generative perspective},
   author={Yuming Qiu, Aleksandra Pizurica, Qi Ming and Nicolas Nadisic},
   journal={arXiv preprint arXiv:2312.11146},
   url={https://arxiv.org/abs/2312.11146},
